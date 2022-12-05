@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Kilonuzu Giriniz ");
+        double kilo = input.nextDouble();
+        System.out.println("Boyunuzu Metre Cinsinden Giriniz");
+        double boy= input.nextDouble();
+        double endeks = kilo/(boy*boy);
+
+        System.out.println("Kitle Endeksiniz "+endeks);
+
+
+    }
+}
